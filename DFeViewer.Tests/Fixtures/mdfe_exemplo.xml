@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdfeProc xmlns="http://www.portalfiscal.inf.br/mdfe" versao="3.00">
+  <MDFe xmlns="http://www.portalfiscal.inf.br/mdfe">
+    <infMDFe versao="3.00" Id="MDFe35240112345678000195580010000000121234567890">
+      <ide>
+        <cUF>35</cUF>
+        <tpAmb>2</tpAmb>
+        <tpEmit>1</tpEmit>
+        <mod>58</mod>
+        <serie>1</serie>
+        <nMDF>12</nMDF>
+        <cMDF>12345678</cMDF>
+        <cDV>0</cDV>
+        <modal>1</modal>
+        <dhEmi>2024-03-10T08:00:00-03:00</dhEmi>
+        <tpEmis>1</tpEmis>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+        <UFIni>SP</UFIni>
+        <UFFim>MG</UFFim>
+        <infMunCarrega>
+          <cMunCarrega>3550308</cMunCarrega>
+          <xMunCarrega>SAO PAULO</xMunCarrega>
+        </infMunCarrega>
+      </ide>
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>TRANSPORTADORA RAPIDA LTDA</xNome>
+        <enderEmit>
+          <xLgr>RUA DO TRANSPORTE</xLgr>
+          <nro>50</nro>
+          <xMun>SAO PAULO</xMun>
+          <CEP>01310100</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderEmit>
+        <IE>123456789012</IE>
+      </emit>
+      <infModal versao="3.00">
+        <rodo>
+          <veicTracao>
+            <placa>ABC1234</placa>
+            <RENAVAM>12345678901</RENAVAM>
+            <tara>8000</tara>
+            <capKG>25000</capKG>
+            <condutor>
+              <xNome>JOAO DA SILVA</xNome>
+              <CPF>12345678901</CPF>
+            </condutor>
+            <tpRod>02</tpRod>
+            <tpCar>00</tpCar>
+            <UF>SP</UF>
+          </veicTracao>
+        </rodo>
+      </infModal>
+      <infDoc>
+        <infMunDescarga>
+          <cMunDescarga>3106200</cMunDescarga>
+          <xMunDescarga>BELO HORIZONTE</xMunDescarga>
+          <infCTe>
+            <chCTe>35240112345678000195570010000000451234567890</chCTe>
+          </infCTe>
+        </infMunDescarga>
+      </infDoc>
+      <tot>
+        <qCTe>1</qCTe>
+        <qNFe>0</qNFe>
+        <qMDFe>0</qMDFe>
+        <vCarga>5000.00</vCarga>
+        <cUnid>01</cUnid>
+        <qCarga>1000.0000</qCarga>
+      </tot>
+    </infMDFe>
+  </MDFe>
+  <protMDFe versao="3.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_MDFe_v3.00</verAplic>
+      <chMDFe>35240112345678000195580010000000121234567890</chMDFe>
+      <dhRecbto>2024-03-10T08:05:00-03:00</dhRecbto>
+      <nProt>135240000000002</nProt>
+      <digVal>def456</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do MDF-e</xMotivo>
+    </infProt>
+  </protMDFe>
+</mdfeProc>

@@ -1,0 +1,25 @@
+<Application x:Class="DFeViewer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:conv="clr-namespace:DFeViewer.Converters">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Light"
+                                             PrimaryColor="Blue"
+                                             SecondaryColor="Teal" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <conv:ZeroToVisibleConverter     x:Key="ZeroToVisibleConverter"/>
+            <conv:NonZeroToVisibleConverter  x:Key="NonZeroToVisibleConverter"/>
+            <conv:BoolToVisibleConverter     x:Key="BoolToVisibleConverter"/>
+            <conv:BoolToInvisibleConverter   x:Key="BoolToInvisibleConverter"/>
+            <conv:TipoToColorConverter       x:Key="TipoToColorConverter"/>
+            <conv:SituacaoToColorConverter   x:Key="SituacaoToColorConverter"/>
+            <conv:SomaTotalConverter         x:Key="SomaTotalConverter"/>
+            <conv:NomeArquivoConverter       x:Key="NomeArquivoConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

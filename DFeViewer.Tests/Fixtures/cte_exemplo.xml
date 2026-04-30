@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cteProc xmlns="http://www.portalfiscal.inf.br/cte" versao="3.00">
+  <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+    <infCte versao="3.00" Id="CTe35240112345678000195570010000000451234567890">
+      <ide>
+        <cUF>35</cUF>
+        <cCT>12345678</cCT>
+        <CFOP>5353</CFOP>
+        <natOp>PRESTACAO DE SERVICO DE TRANSPORTE</natOp>
+        <mod>57</mod>
+        <serie>1</serie>
+        <nCT>45</nCT>
+        <dhEmi>2024-02-20T09:00:00-03:00</dhEmi>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>0</cDV>
+        <tpAmb>2</tpAmb>
+        <tpCTe>0</tpCTe>
+        <procEmi>0</procEmi>
+        <verProc>1.0</verProc>
+        <UFIni>SP</UFIni>
+        <UFFim>RJ</UFFim>
+        <tpServ>0</tpServ>
+      </ide>
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>TRANSPORTADORA RAPIDA LTDA</xNome>
+        <IE>123456789012</IE>
+        <enderEmit>
+          <xLgr>RUA DO TRANSPORTE</xLgr>
+          <nro>50</nro>
+          <xMun>SAO PAULO</xMun>
+          <CEP>01310100</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderEmit>
+      </emit>
+      <rem>
+        <CNPJ>11111111000100</CNPJ>
+        <xNome>REMETENTE EXEMPLO</xNome>
+        <enderReme>
+          <xLgr>RUA A</xLgr>
+          <nro>1</nro>
+          <xMun>SAO PAULO</xMun>
+          <CEP>01310100</CEP>
+          <UF>SP</UF>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderReme>
+      </rem>
+      <dest>
+        <CNPJ>22222222000200</CNPJ>
+        <xNome>DESTINATARIO EXEMPLO</xNome>
+        <enderDest>
+          <xLgr>AV B</xLgr>
+          <nro>200</nro>
+          <xMun>RIO DE JANEIRO</xMun>
+          <CEP>20040020</CEP>
+          <UF>RJ</UF>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderDest>
+      </dest>
+      <vPrest>
+        <vTPrest>350.00</vTPrest>
+        <vRec>350.00</vRec>
+      </vPrest>
+      <imp>
+        <ICMS><ICMS00><CST>00</CST><vBC>350.00</vBC><pICMS>12.00</pICMS><vICMS>42.00</vICMS></ICMS00></ICMS>
+        <vTotTrib>42.00</vTotTrib>
+      </imp>
+      <infCTeNorm>
+        <infCarga>
+          <vCarga>5000.00</vCarga>
+          <proPred>MERCADORIAS EM GERAL</proPred>
+          <xOutCat>CARGA GERAL</xOutCat>
+        </infCarga>
+        <infDoc>
+          <infNFe>
+            <chave>35240112345678000195550010000001231234567890</chave>
+          </infNFe>
+        </infDoc>
+      </infCTeNorm>
+    </infCte>
+  </CTe>
+  <protCTe versao="3.00">
+    <infProt>
+      <tpAmb>2</tpAmb>
+      <verAplic>SP_CTe_v3.00</verAplic>
+      <chCTe>35240112345678000195570010000000451234567890</chCTe>
+      <dhRecbto>2024-02-20T09:05:00-03:00</dhRecbto>
+      <nProt>135240000000001</nProt>
+      <digVal>abc123</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso do CT-e</xMotivo>
+    </infProt>
+  </protCTe>
+</cteProc>

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>DFeViewer</AssemblyName>
+    <RootNamespace>DFeViewer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DFeViewer.Tests\**" />
+    <EmbeddedResource Remove="DFeViewer.Tests\**" />
+    <None Remove="DFeViewer.Tests\**" />
+    <Page Remove="DFeViewer.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- DFe.NET via NuGet -->
+    <PackageReference Include="Zeus.Net.NFe.NFCe" Version="2026.3.25.1153" />
+    <PackageReference Include="Zeus.Net.CTe" Version="2026.3.25.1153" />
+    <PackageReference Include="Zeus.Net.MDFe" Version="2026.3.25.1153" />
+
+    <!-- DANFE em HTML (para preview e impressão) -->
+    <PackageReference Include="Zeus.Net.NFe.Danfe.Html" Version="2026.3.25.1153" />
+
+<!-- PDF com QuestPDF (gratuito para uso comunitário) -->
+    <PackageReference Include="QuestPDF" Version="2025.1.0" />
+
+    <!-- Material Design UI -->
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
+
+    <!-- Para WebView2 (preview HTML do DANFE) -->
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2739.15" />
+  </ItemGroup>
+
+</Project>
