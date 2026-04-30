@@ -1,5 +1,7 @@
 # DFeViewer — Leitor de Documentos Fiscais Eletrônicos
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 Aplicação desktop **WPF (.NET 8)** para visualização e impressão de documentos fiscais eletrônicos (DFe) em XML, usando a biblioteca [DFe.NET (Zeus)](https://github.com/ZeusAutomacao/DFe.NET).
 
 ---
@@ -179,3 +181,20 @@ Isso evita dependências de impressoras e drivers — funciona com qualquer impr
 - Cancelamento / carta de correção
 - Filtros por período e valor
 - Exportação em lote (múltiplos PDFs)
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+
+**Você pode:**
+- Usar, copiar e distribuir livremente
+- Modificar e criar versões derivadas
+
+**Você não pode:**
+- Vender o software ou incorporá-lo em produtos/serviços pagos sem autorização do autor
+
+**Condição:** distribuições e derivações devem manter esta mesma licença e dar crédito ao autor original.
+
+Copyright © 2026 Ednelson Chado
